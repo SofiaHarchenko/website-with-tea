@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  width: 1024px;
+  margin: 30px auto;
+}
+
+header{
+  height: 150px;
+  background: url("https://chazhidao.org/sites/default/files/styles/vsocial/public/2023-05/pincha.jpg?itok=MeLQiHgT") 50% 70%;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  position: relative;
+  bottom: 0px;
+  left: 20px;
+}
+
+nav{
+  margin-left: 150px;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.nav-link{
+  transform: scale(2.5);
+  font-family: 'Cormorant Garamond';
+}
+
+.products {
+  margin-top: 50px;
+  display: none;
+  justify-content: space-evenly;
+}
+
+.product {
+  width: 210px;
+  height: 310px;
+  border: 3px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  margin: 8px auto;
+}
+
+.prise, .discription {
+  margin: 8px auto;
+}
+
+.buy {
+  margin-top: 15px;
+}
+
+.hero{
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+}
+
+.about{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+  align-items: flex-end;
+}
+
+.us{
+    margin: 0px;
+  height:200px;
+  
+}
+
+.aboutus{
+     display: none;
+     color: white;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+     background: url("https://i.postimg.cc/BZDHmYw1/25-3-A937-B8.png");
+     background-size: cover;
+     background-transparency: 0.5;
+}
